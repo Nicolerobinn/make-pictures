@@ -1,0 +1,8 @@
+{
+    "{components,config,src,tools}/**/*.{ts,tsx,js}": [
+      "eslint --fix"
+    ],
+    "{src,components}/**/*.scss": [
+      "stylelint --fix"
+    ]
+}
